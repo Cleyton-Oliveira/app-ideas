@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <script type="text/javascript" src="./script.js" defer></script>
+</head>
+<body>
+    <main id="content">
+        <div id="converter">
+            <form>
+                <ul>
+                    <li><input id="input" type="tel" placeholder="Input the number">
+                        <button id="submit-button" type="button">Convert</button>
+                    </li>
+
+                    <li>
+                        <input type="radio" id="binary" name="convertionMode" value="binary" checked>
+                        <label for="binary">Binary</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" id="decimal" name="convertionMode" value="decimal">
+                        <label for="decimal">Decimal</label>
+                    </li>
+                </ul>
+            </form>
+            <div id="display"></div>
+        </div>
+    </main>
+</body>
+</html>
